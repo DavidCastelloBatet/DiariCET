@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>El Diari</title>
+  </head>
+  <body>
+    <!--start header-->
+    <header>
+      <a href="index.html">
+        <img src="./images/logo.png" alt="logo del diari" width="200"
+      /></a>
+      <h1>El Diari</h1>
+    </header>
+    <!--end header-->
+
+    <!--start nav -->
+    <nav>
+      <ul>
+        <li><a href="#actualitat">Actualitat</a></li>
+        <li><a href="#noticies">Noticies</a></li>
+        <li><a href="#esports">Esports</a></li>
+        <li><a href="#registre">Registre</a></li>
+      </ul>
+    </nav>
+    <!--end nav-->
+
+    <main>
+      <!--start main actualitat-->
+      <section class="actualitat" id="actualitat">
+        <h2>Actualitat</h2>
+        <!--TO DO: Afegir Noticia ppal com a multimedia-->
+      </section>
+      <!--end main actualitat-->
+
+      <!--start main noticies-->
+      <section class="noticies" id="noticies">
+        <h2>Noticies</h2>
+        <article>
+          <h3>Noticia 1</h3>
+          <img
+            src="./images/articlesImages/noticies1.jpeg"
+            alt="cartellera publicitat"
+            width="200"
+          />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Reiciendis, error assumenda! Quos, harum. Itaque repellendus quasi,
+            quo laborum eos voluptatibus quidem. Quaerat doloremque ut, cumque
+            fuga officiis quasi dolor voluptas!
+          </p>
+        </article>
+        <article>
+          <h3>Noticia 2</h3>
+          <img
+            src="./images/articlesImages/noticies2.jpeg"
+            alt="poster amb animals"
+            width="200"
+          />
+          <p>
+            Ducimus ipsam debitis dolorem totam voluptatum blanditiis
+            perferendis recusandae! Quidem perferendis sapiente natus voluptas
+            voluptatem ab officiis vero nostrum adipisci, et neque assumenda
+            illum quisquam dolorem, iusto quaerat distinctio libero.
+          </p>
+        </article>
+        <article>
+          <h3>Noticia 3</h3>
+          <img
+            src="./images/articlesImages/noticies3.jpeg"
+            alt="planta darrera finestra"
+            width="200"
+          />
+          <p>
+            Dolores, inventore. Mollitia, vel itaque sed labore ab repellat
+            perspiciatis, magnam quod quasi laudantium quae non nam totam
+            debitis pariatur, ut aspernatur porro esse veritatis possimus optio.
+            Laboriosam, ullam ipsam.
+          </p>
+        </article>
+      </section>
+      <!--end main noticies-->
+
+      <!--start main esports-->
+      <section class="esports" id="esports">
+        <h2>Esports</h2>
+        <article>
+          <h3>Noticia Esports 1</h3>
+          <img
+            src="./images/articlesImages/esports1.jpeg"
+            alt="ciclistes corrent"
+            width="200"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+            dignissimos corporis! Unde aspernatur cum recusandae sunt? Incidunt
+            qui debitis repellendus fuga voluptas veritatis sit aliquid cum
+            minima voluptatibus, molestiae quidem?
+          </p>
+        </article>
+        <article>
+          <h3>Noticia Esports 2</h3>
+          <img
+            src="./images/articlesImages/esports2.jpeg"
+            alt="peu futbolista i pilota"
+            width="200"
+          />
+          <p>
+            Nulla labore voluptatibus sequi consequuntur eum. Culpa quo quia ut
+            neque sunt ea ullam id quidem a quaerat autem odio, nam unde
+            cupiditate quis ducimus omnis vero placeat et dignissimos.
+          </p>
+        </article>
+        <article>
+          <h3>Noticia Esports 3</h3>
+          <img
+            src="./images/articlesImages/esports3.jpeg"
+            alt="dones corrent"
+            width="200"
+          />
+          <p>
+            Rerum in, beatae, aliquid tenetur perspiciatis dolor suscipit
+            impedit expedita ipsa, nisi obcaecati! Obcaecati consequatur quasi
+            vel, magnam mollitia assumenda tempora hic magni labore sit culpa
+            necessitatibus repudiandae aperiam distinctio!
+          </p>
+        </article>
+      </section>
+      <!--end main esports-->
+
+      <!--start main registre-->
+      <section class="registre" id="registre">
+        <h2>Registre</h2>
+        <!-- Ull!!!!     start code "copy pega"-->
+        <form action="index.php" method="post">
+          <p>
+            <label for="usernamesignup" class="uname">Nom</label>
+            <input
+              id="usernamesignup"
+              name="usernamesignup"
+              required="required"
+              type="text"
+              placeholder="Nom"
+            />
+          </p>
+          <p>
+            <label for="emailsignup" class="youmail">Email</label>
+            <input
+              id="emailsignup"
+              name="emailsignup"
+              required="required"
+              type="email"
+              placeholder="exemple@mail.com"
+            />
+          </p>
+          <p>
+            <label for="passwordsignup" class="youpasswd">Password</label>
+            <input
+              id="passwordsignup"
+              name="passwordsignup"
+              required="required"
+              type="password"
+              placeholder="eg. X8df!90EO"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              title="Ha de contenir al menys un número y una lettra majúscula i minúscula, y al menys 8 carácters"
+            />
+          </p>
+          <p>
+            <label for="passwordsignup_confirm" class="youpasswd"
+              >Confirma password
+            </label>
+            <input
+              id="passwordsignup_confirm"
+              name="passwordsignup_confirm"
+              required="required"
+              type="password"
+              placeholder="eg. X8df!90EO"
+            />
+          </p>
+          <p class="signin button">
+            <button type="submit">Registre</button>
+          </p>
+        </form>
+        <!--
+        <?php
+          print "<pre>"; print_r($_REQUEST); print "</pre>\n";
+          print "<p>S_REQUEST[usernamesignup], t'has registrat correctament</p>\n";
+        ?>
+        -->
+        <!-- end code "copy pega"-->
+      </section>
+      <!--end main registre-->
+
+      <!--start footer-->
+      <footer>
+        <h2>El Diari</h2>
+        <p>
+          Copyright &copy;
+          <script>
+            document.write(new Date().getFullYear()); // Method that utomatically updates the year
+          </script>
+          El Diari
+        </p>
+      </footer>
+      <!--end footer-->
+    </main>
+  </body>
+</html>

@@ -11,7 +11,7 @@
   <body>
   <?php
     print ($_POST["usernamesignup"]);
-    print (", t'\has registrat correctament");
+    print (", t'has registrat correctament");
   ?>
   </body>
 </html>

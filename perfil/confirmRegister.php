@@ -10,8 +10,8 @@
   </head>
   <body>
   <?php
-    print ($_POST["usernamesignup"]);
-    print (", t'has registrat correctament");
+    echo $_POST["usernamesignup"];
+    echo ", t'has registrat correctament";
   ?>
   </body>
 </html>

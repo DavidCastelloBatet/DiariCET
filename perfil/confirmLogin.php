@@ -18,8 +18,8 @@
     </header>
       <!--end header-->
     <?php
-      echo $_POST["usernamesignup"];
-      echo ", t'has registrat correctament";
+      echo "Benvingut "; 
+      echo $_POST["emailsignup"];
     ?>
   </body>
 </html>

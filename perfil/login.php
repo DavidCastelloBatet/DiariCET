@@ -11,7 +11,7 @@
   <body>
     <!--start header-->
     <header>
-      <a href="index.html">
+      <a href="../index.html">
         <img src="../images/logo.png" alt="logo del diari" width="200"
       /></a>
       <h1>El Diari</h1>
